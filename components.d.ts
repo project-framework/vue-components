@@ -14,6 +14,7 @@ declare module '@vue/runtime-core' {
     AUpload: typeof import('ant-design-vue/es')['Upload']
     BaseEchart: typeof import('./src/components/BaseEchart/index.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+    IndexVue2: typeof import('./src/components/BaseEchart/index-vue2.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Upload: typeof import('./src/components/Upload.vue')['default']
